@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rigorvzla", "rigorvzla\rigorvzla.csproj", "{BDF7D4BB-8B56-4A61-8B1E-4B3E5B2F7CC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDF7D4BB-8B56-4A61-8B1E-4B3E5B2F7CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF7D4BB-8B56-4A61-8B1E-4B3E5B2F7CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF7D4BB-8B56-4A61-8B1E-4B3E5B2F7CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF7D4BB-8B56-4A61-8B1E-4B3E5B2F7CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F110712-72F4-49D7-A6C0-48A98C2DBBEC}
+	EndGlobalSection
+EndGlobal
