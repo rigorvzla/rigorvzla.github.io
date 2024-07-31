@@ -1,7 +1,7 @@
 {
-  "mainAssemblyName": "rigorvzla",
+  "mainAssemblyName": "RigorVzla_App_Web",
   "resources": {
-    "hash": "sha256-NhxnV3wPAuejd8pwrcj3ga8niGf69n/2QwXSZBrf7TE=",
+    "hash": "sha256-gWwGhJTe65JLZDkE8XVhjOuSSPfLfcF1Vj1EIic44oQ=",
     "jsModuleNative": {
       "dotnet.native.8.0.7.kzuwijk3e2.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
     },
@@ -31,7 +31,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-6187ynEahDlSLMBvD4vAmiLpZ3clRb5xu6rM7O8AxNo=",
       "Microsoft.JSInterop.wasm": "sha256-2sr0xqhiAx9LGE7r2x+hppcv18IJ91umOMG7UFkCh0U=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-rhDkGvVEd5YGb2JsVk1xQC7gCF8TXNfpDfo9dGFhuyI=",
-      "rigorvzla.wasm": "sha256-Cxk/fHzB/JJ3Q3ML8EbXYZlDhnU4zNGfL9j2qm5ZPmo=",
+      "RigorVzla_App_Web.wasm": "sha256-7xtA1UD2IDywxxtj8iZWarsflNV9KcplSfJpYaSYD8U=",
       "System.Collections.Concurrent.wasm": "sha256-esrXJViSl51Ig4J0nVUn2bAyFzJSYNEiCGfpOMqSGJQ=",
       "System.Collections.wasm": "sha256-qRBM6ZhxFC5pQQQ/j4xv+3r6wyblFs0TmBxiTbDxrcw=",
       "System.ComponentModel.wasm": "sha256-TglF9Cma6UOoLFYnvaWKbPJjgEG7PgkN5biRsqmZKiQ=",
