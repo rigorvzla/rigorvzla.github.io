@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "RigorVzla_App_Web",
   "resources": {
-    "hash": "sha256-urdH3gYrhUbnJcddmRibcBc9LhgKeoEi/x5yCjqseEI=",
+    "hash": "sha256-5AIUwcZePvIZ4GHG3T26sR85zxIIWaI8Woc4dJTpjo0=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-D0bzod5lwwSzPR43JC8TTCcZKw+3jIHOk8CZFCRj5is="
     },
@@ -69,7 +69,7 @@
       "System.wasm": "sha256-9DLmgOsnmEbjuZrRVFruRmVRvh/skjCDv6hQMjVZ3K8=",
       "netstandard.wasm": "sha256-ORO956cuz2ZiN8HPBpccecUQHUziRShIeg7yAOuh8Q8=",
       "System.Private.CoreLib.wasm": "sha256-PA+cJSlP2M+3T20sz+T9bQjEwazNd6sAAw7mJGN0X+k=",
-      "RigorVzla_App_Web.wasm": "sha256-Mk/mGRSO2sMVDU82bFTgdUJBrXKFfS34BVGfpde+ZS4="
+      "RigorVzla_App_Web.wasm": "sha256-6w8HpCoABMxW9aEMc7Bk9kABk7SmqQ8ibdJbhWpRrms="
     }
   },
   "cacheBootResources": true,
