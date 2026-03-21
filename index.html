@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RigorVzla</title>
-    <base href="rigorvzla.github.io" />
+    <base href="/" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
@@ -29,6 +29,7 @@
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
     <script>
+        // Función para descargar archivos
         window.triggerFileDownload = (fileName, url) => {
             const anchorElement = document.createElement('a');
             anchorElement.href = url;
@@ -36,6 +37,28 @@
             anchorElement.click();
             anchorElement.remove();
         }
+
+        // Manejar rutas profundas en GitHub Pages
+        (function () {
+            var path = window.location.pathname;
+
+            // Si la ruta no es la raíz y no es un archivo con extensión
+            if (path !== '/' && !path.includes('.')) {
+                // Guardar la ruta para usarla después
+                sessionStorage.setItem('deepLink', path);
+                // Redirigir a la raíz
+                window.location.href = '/';
+            }
+
+            // Restaurar navegación después de cargar Blazor
+            window.addEventListener('load', function () {
+                var deepLink = sessionStorage.getItem('deepLink');
+                if (deepLink && window.Blazor) {
+                    sessionStorage.removeItem('deepLink');
+                    window.Blazor.navigateTo(deepLink);
+                }
+            });
+        })();
     </script>
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 </body>
