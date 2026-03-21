@@ -47,6 +47,19 @@
             text-decoration: none;
         }
     </style>
+    <script>
+        // Capturar la ruta que causó el 404
+        var path = window.location.pathname;
+        var search = window.location.search;
+        var hash = window.location.hash;
+        var fullPath = path + search + hash;
+
+        // Guardar la ruta
+        sessionStorage.setItem('blazorDeepLink', fullPath);
+
+        // Redirigir a la raíz
+        window.location.replace('/');
+    </script>
 </head>
 <body>
     <div class="loader">
@@ -54,20 +67,5 @@
         <p>Redirigiendo...</p>
         <p><small>Si no eres redirigido automáticamente, <a href="/">haz clic aquí</a></small></p>
     </div>
-    <script>
-        // Obtener la ruta actual
-        var path = window.location.pathname;
-        var search = window.location.search;
-        var hash = window.location.hash;
-
-        // Construir la URL completa para Blazor
-        var redirectUrl = path + search + hash;
-
-        // Guardar en sessionStorage para depuración
-        sessionStorage.setItem('redirectPath', redirectUrl);
-
-        // Redirigir a la página principal con el hash de navegación
-        window.location.href = '/' + redirectUrl;
-    </script>
 </body>
 </html>
