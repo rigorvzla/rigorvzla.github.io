@@ -419,3 +419,11 @@
 .mcapp .table th {
     color: var(--text);
 }
+/* Las tarjetas dentro de una rejilla no llevan separación vertical extra:
+   así quedan alineadas y con la misma altura. */
+.mcapp .grid-2 > .card + .card,
+.mcapp .grid-3 > .card + .card,
+.mcapp .grid-4 > .card + .card,
+.mcapp .grid-auto > .card + .card {
+    margin-top: 0;
+}
