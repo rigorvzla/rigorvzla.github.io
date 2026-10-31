@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "RigorVzla_App_Web",
   "resources": {
-    "hash": "sha256-BO9vuP2RYUtdOHwAgAhQCvDpN0rXTq3MsN7GQjRXOQ4=",
+    "hash": "sha256-sycor5qwDq90eXSRpoNTl5WHgZVwPiiSSzBApVFbPyQ=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.doa3tu29i6.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.sl9ka3mowt.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -48,8 +48,8 @@
       "System.Text.RegularExpressions.kko5ac1sj1.wasm": "System.Text.RegularExpressions.wasm",
       "System.Threading.0v7fr48sih.wasm": "System.Threading.wasm",
       "System.p0vf5aoex5.wasm": "System.wasm",
-      "System.Private.CoreLib.gh73dmab0o.wasm": "System.Private.CoreLib.wasm",
-      "RigorVzla_App_Web.dbmg6d6osf.wasm": "RigorVzla_App_Web.wasm",
+      "System.Private.CoreLib.dh2y41ybmk.wasm": "System.Private.CoreLib.wasm",
+      "RigorVzla_App_Web.og2vh5yby8.wasm": "RigorVzla_App_Web.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.6sals8nuk0.js": "dotnet.native.js",
       "dotnet.native.zzmgzj9wb3.wasm": "dotnet.native.wasm",
@@ -74,7 +74,7 @@
     },
     "coreAssembly": {
       "System.Runtime.InteropServices.JavaScript.4a4pqv0cl2.wasm": "sha256-7BdeaoxeVjML3qu8PKxhxtbnbEVIVAMLWbp/MG8oOLg=",
-      "System.Private.CoreLib.gh73dmab0o.wasm": "sha256-pO0MJa27rRgL5FoNMF1noUaCLfnps3xG9jZ4ai3SRW0="
+      "System.Private.CoreLib.dh2y41ybmk.wasm": "sha256-77ZDGG4lmlKGg3ghV2Z1Tk3OiK01BPZ6DHiaoHpzW6g="
     },
     "assembly": {
       "Microsoft.AspNetCore.Authorization.doa3tu29i6.wasm": "sha256-zS0R91QBcctwxOSuG0P4B4Q49ydEdRl9vfIWfn0w4uc=",
@@ -121,7 +121,7 @@
       "System.Text.RegularExpressions.kko5ac1sj1.wasm": "sha256-pBU5xrbAIhYCjypX6ly7dIHa2b5jgeiZb7xbQ+atqFA=",
       "System.Threading.0v7fr48sih.wasm": "sha256-dB+Ja+sbu1fTFvNZYOfX2J0mvql7fOie2zyYwG+eiNA=",
       "System.p0vf5aoex5.wasm": "sha256-Nyi0mcDiCrrs35AL7vjBFsnr50PVmlZc0YGTCXg0h18=",
-      "RigorVzla_App_Web.dbmg6d6osf.wasm": "sha256-+U64W7ULQWtMJufxckeQDVLyeD1/NgMa4u7Mwre35+8="
+      "RigorVzla_App_Web.og2vh5yby8.wasm": "sha256-yBxyFV/Hzm698WmUFfbc7ZFAx9nwRITLFK8FufTQGAU="
     }
   },
   "cacheBootResources": true,

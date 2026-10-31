@@ -410,14 +410,11 @@
     -webkit-font-smoothing: antialiased;
 }
 
-/* Refuerzo: Bootstrap aplica color de texto del tema oscuro a .table/.card.
-   Dentro de Moto Control deben usar el color de la paleta clara. */
+/* Refuerzo: Bootstrap aplica el color del tema oscuro a .table/.card.
+   Dentro de Moto Control deben usar la paleta clara. */
 .mcapp .card,
 .mcapp .table,
-.mcapp table {
-    color: var(--text);
-}
-
+.mcapp table,
 .mcapp .table td,
 .mcapp .table th {
     color: var(--text);
