@@ -24,6 +24,22 @@
     --ring: 0 0 0 3px rgba(25, 118, 210, .18);
     --sidebar: 252px;
     --mobile-bar: 58px;
+
+    /* Bootstrap (cargado por RigorVzla) define varios colores globales
+       pensados para el tema oscuro. Aquí se neutralizan dentro de Moto Control. */
+    --bs-body-color: #37474F;
+    --bs-body-bg: #FFFFFF;
+    --bs-emphasis-color: #37474F;
+    --bs-heading-color: #37474F;
+    --bs-secondary-color: #546E7A;
+    --bs-tertiary-color: #78909C;
+    --bs-border-color: #CFD8DC;
+    --bs-table-color: #37474F;
+    --bs-table-bg: #FFFFFF;
+    --bs-table-striped-color: #37474F;
+    --bs-table-striped-bg: #F7FBFF;
+    --bs-table-hover-color: #37474F;
+    --bs-table-hover-bg: #F2F8FF;
 }
 .mcapp, .mcapp * { box-sizing: border-box; }
 .mcapp {
@@ -392,4 +408,12 @@
     font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
+}
+
+/* Refuerzo: Bootstrap aplica color de texto del tema oscuro a .table/.card.
+   Dentro de Moto Control deben usar el color de la paleta clara. */
+.mcapp .card,
+.mcapp .table,
+.mcapp table {
+    color: var(--text);
 }
