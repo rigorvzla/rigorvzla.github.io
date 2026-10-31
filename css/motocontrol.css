@@ -427,3 +427,9 @@
 .mcapp .grid-auto > .card + .card {
     margin-top: 0;
 }
+/* El tema oscuro de RigorVzla pinta <strong> de blanco; dentro de Moto Control
+   debe usar el color de texto normal (los estilos en línea siguen mandando). */
+.mcapp strong,
+.mcapp b {
+    color: var(--text);
+}
