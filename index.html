@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/motocontrol.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="RigorVzla_App_Web.styles.css" rel="stylesheet" />
 </head>
@@ -41,48 +42,11 @@
             anchorElement.click();
             anchorElement.remove();
         }
-
-        // Manejar rutas profundas para GitHub Pages
-        (function () {
-            // Obtener la ruta completa después del dominio
-            var path = window.location.pathname;
-            var hash = window.location.hash;
-            var search = window.location.search;
-
-            // Si hay una ruta que no es la raíz y no es un archivo estático
-            if (path !== '/' && !path.includes('.') && !path.includes('_framework')) {
-                // Guardar la ruta completa para restaurar después
-                var fullPath = path + search + hash;
-                sessionStorage.setItem('blazorDeepLink', fullPath);
-
-                // Redirigir a la raíz
-                window.location.replace('/');
-                return;
-            }
-
-            // Función para restaurar la navegación después de que Blazor cargue
-            function restoreNavigation() {
-                var deepLink = sessionStorage.getItem('blazorDeepLink');
-                if (deepLink && window.Blazor && window.Blazor.navigateTo) {
-                    sessionStorage.removeItem('blazorDeepLink');
-                    window.Blazor.navigateTo(deepLink);
-                }
-            }
-
-            // Esperar a que Blazor esté listo
-            if (document.readyState === 'loading') {
-                document.addEventListener('DOMContentLoaded', restoreNavigation);
-            } else {
-                restoreNavigation();
-            }
-
-            // También intentar después de un tiempo por si Blazor tarda
-            setTimeout(restoreNavigation, 1000);
-        })();
     </script>
 
     <script src="js/airh-particles.js"></script>
     <script src="js/shell.js"></script>
+    <script src="js/mc.js"></script>
     <script src="_framework/blazor.webassembly.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
