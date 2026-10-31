@@ -417,3 +417,8 @@
 .mcapp table {
     color: var(--text);
 }
+
+.mcapp .table td,
+.mcapp .table th {
+    color: var(--text);
+}
