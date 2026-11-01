@@ -7,6 +7,7 @@
     <meta name="theme-color" content="#02010F" />
     <title>RigorVzla</title>
     <base href="/" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' blob:; script-src 'self' 'wasm-unsafe-eval' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: https:; font-src 'self' data: https://cdn.jsdelivr.net; connect-src 'self' https://api-motocontrol.onrender.com http://localhost:5134 http://localhost:5133; object-src 'none'; base-uri 'self'; form-action 'self'" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
@@ -33,16 +34,7 @@
         <a class="dismiss">🗙</a>
     </div>
 
-    <script>
-        // Función para descargar archivos
-        window.triggerFileDownload = (fileName, url) => {
-            const anchorElement = document.createElement('a');
-            anchorElement.href = url;
-            anchorElement.download = fileName ?? '';
-            anchorElement.click();
-            anchorElement.remove();
-        }
-    </script>
+    <script src="js/compat.js"></script>
 
     <script src="js/airh-particles.js"></script>
     <script src="js/shell.js"></script>
