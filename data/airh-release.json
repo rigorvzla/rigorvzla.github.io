@@ -1,0 +1,5 @@
+{
+  "Producto": "AIRH MAX",
+  "Version": "8.0.0.0",
+  "Novedades": "Novedades de la versión 8.0:\n- Nueva imagen de la aplicación (arranque y cabecera)\n- Interfaz rediseñada con un estilo visual unificado\n- Escáner de red propio, sin NetWatcher, con los dispositivos conectados\n- Actualizador de llama.cpp desde la propia aplicación\n- Arranque más rápido y con el detalle de cada módulo\n- Corregidos: agenda, comentarios, Arduino, comandos y monitor de equipo"
+}
